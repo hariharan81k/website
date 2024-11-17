@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #194d5e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Section Styles */
+#about {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#about p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skill-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skill {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background: #e4e4e4;
+}
+
+#logo-html{
+    background-color: brown;
+    color: bisque;
+}
+#logo-css{
+    background-color: brown;
+    color: bisque;
+}#logo-js{
+    background-color: brown;
+    color: bisque;
+}#logo-py{
+    background-color: brown;
+    color: bisque;
+}#logo-c{
+    background-color: brown;
+    color: bisque;
+}
+
+/* Projects Section Styles */
+#projects {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background: #e4e4e4;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 20px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#contact p:hover{
+    font-weight: bold;
+}
+
+
+#contact p:hover {
+    font-weight: bold;
+}
+#contact p {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer{
+    background: #194d5e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
